@@ -3,8 +3,8 @@
 SoftwareSerial BTSerial(2, 3);
 
 void setup() {
-  Serial.setup(9600);
-  BTSerial.setup(9600);
+  Serial.begin(9600);
+  BTSerial.begin(9600);
   //if module is HC-05, board rate speed is 38400
 }
 
